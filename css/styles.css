@@ -179,6 +179,7 @@ form fieldset legend {
   border-radius: 5px;
   background-color:rgb(53, 0, 53);
   color:rgb(255, 206, 255);
+  margin: 10px 0;
 }
 
 .cat-form button:hover {
@@ -207,6 +208,7 @@ footer p {
   width: 50%;
   color: rgb(255, 206, 255);
   text-align: center;
+  line-height: 1.5;
 }
 
 footer p a{
@@ -217,8 +219,52 @@ footer p a:hover {
   color: rgb(255, 233, 255);
 }
 /*****************************************
-                    HEADER
+            MEDIA QUERIES
 *****************************************/
+
+@media (max-width: 768px) {
+  .cat-photos {
+    display: block;
+  }
+
+  .cat-photos-title {
+    width: 100%;
+  }
+
+  .cat-photos img {
+    width: 100%;
+  }
+
+  .cat-box {
+    display: block;
+  }
+
+  .cat-box-list {
+    width: 100%;
+  }
+
+  .cat-box-list-2 {
+    width: 100%;
+  }
+
+  .cat-box-list-2 ol {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  form {
+    width: 80%;
+    font-size: 20px;
+  }
+
+  footer p {
+    width: 75%;
+    font-size: 14px;
+    
+  }
+}
+
 
 /*****************************************
                     HEADER
