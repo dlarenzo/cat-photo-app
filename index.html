@@ -28,18 +28,22 @@
       <img src="img/cat-n-bowl.png" alt="">
     </section>
 
+    <hr>
 <!----- CAT-LISTS ----->  
     <section class="cat-lists">
       <h2>Cat Lists</h2>
-      <h3>Things cats love:</h3>
+
 
       <div class="cat-box">
-        
-        <ul>
-          <li>cat nip</li>
-          <li>laser pointers</li>
-          <li>lasagna</li>
-        </ul>
+        <div class="cat-box-list">
+          <h3>Things cats love:</h3>
+          <ul>
+            <li>cat nip</li>
+            <li>laser pointers</li>
+            <li>lasagna</li>
+          </ul>
+        </div>
+
         <figure>
           <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
           <figcaption>Cats <em>love</em> lasagna.</figcaption>  
@@ -47,12 +51,16 @@
       </div>
       
       <div class="cat-box">
-        <h3>Top 3 things cats hate:</h3>
-        <ol>
-          <li>flea treatment</li>
-          <li>thunder</li>
-          <li>other cats</li>
-        </ol>
+
+        <div class="cat-box-list-2">
+          <h3>Top 3 things cats hate:</h3>
+          <ol>
+            <li>flea treatment</li>
+            <li>thunder</li>
+            <li>other cats</li>
+          </ol>
+        </div>
+
         <figure>
           <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
           <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
@@ -61,6 +69,7 @@
 
     </section>
 
+    <hr>
 <!----- CAT-FORM ----->  
     <section class="cat-form">
       <h2>Cat Form</h2>
@@ -76,8 +85,12 @@
           <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
           <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
         </fieldset>
-        <input type="text" name="catphotourl" placeholder="cat photo URL" required>
-        <button type="submit">Submit</button>
+
+        <div class="photo-submission">
+          <input type="text" class="cat-photo-text" name="catphotourl" placeholder="cat photo URL" required>
+          <button type="submit">Submit</button>
+        </div>
+        
       </form>
     </section>
   </main>
