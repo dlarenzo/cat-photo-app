@@ -1,18 +1,121 @@
 * {
-  border: red dotted 2px;
+  border: red dotted 2px; 
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body, main, section, footer, h1, h2, p, ul, a {
+body, main, section, footer, h1, h2, h3, p, ul, a {
   margin: 0;
   padding: 0;
   text-decoration: none;
   list-style-type: none;
 }
 
+body {
+  background-color: rgb(255, 227, 255);
+}
+
+img {
+  width: 100%
+}
 /*****************************************
                     MAIN
 *****************************************/
 main {
   padding: 0 10px;
 }
+
+/*****************************************
+                    SECTION
+*****************************************/
+section {
+  padding: 20px 0;
+}
+
+/*****************************************
+                    HEADER
+*****************************************/
+header{
+  background-color: rgb(53, 0, 53);
+  color: rgb(255, 206, 255);
+  padding: 20px 0;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 42px;
+}
+
+
+/*****************************************
+                    CAT-PHOTOS
+*****************************************/
+.cat-photos {
+  display: flex;
+}
+
+.cat-photos-title {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cat-photos-title h2 {
+  color: rgb(53, 0, 53);
+  font-size: 38px;
+  
+}
+
+.cat-photos-title p {
+  margin-top: 5px;
+}
+
+.cat-photos-title p a {
+  color: rgb(53, 0, 53);
+  font-weight: bold;
+  font-style:italic;
+}
+
+.cat-photos img {
+  width: 50%;
+}
+/*****************************************
+                    CAT-LISTS
+*****************************************/
+
+
+/*****************************************
+                    CAT-FORM
+*****************************************/
+
+
+/*****************************************
+                    FOOTER
+*****************************************/
+footer {
+  padding: 20px 0;
+  background-color: rgb(53, 0, 53);
+}
+
+footer p {
+  margin: 0 auto;
+  width: 50%;
+  color: rgb(238, 117, 238);
+  text-align: center;
+}
+
+footer p a{
+  color: rgb(238, 117, 238);
+}
+/*****************************************
+                    HEADER
+*****************************************/
+
+/*****************************************
+                    HEADER
+*****************************************/
+
+/*****************************************
+                    HEADER
+*****************************************/
